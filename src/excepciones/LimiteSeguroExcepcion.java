@@ -1,8 +1,8 @@
 package excepciones;
 
-public class LimiteSeguroException extends Exception {
+public class LimiteSeguroExcepcion extends Exception {
 
-    public LimiteSeguroException(String mensaje) {
+    public LimiteSeguroExcepcion(String mensaje) {
         super(mensaje);
     }
 }
